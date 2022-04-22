@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VortexHostBr</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="menu-mobile">
+                <label for="check" class="checkbtn" id="btn">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+            </div>
+            <label class="logo">VortexHostBr</label>
+            <ul id="nav">
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Loja</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="title wave-bg-bot">
+        <h2 style="margin-top: 2rem;">Bem-vindo(a)</h2>
+        <p><a href="#">Início</a> / <span>Planos</span> / <a href="#">Hospedagem SAMP</a></p>
+        <h3>Hospedagem MTA - SAMP</h3>
+
+        <div class="items">
+            <div class="card">
+                <h3>
+                    <span>Host SAMP - Básico</span>
+                    <img src="/assets/computer.png" alt="Image de Host SAMP" />
+                </h3>
+                <p>R$ 15,00</p>
+                <hr/><br/>
+                <span>Solução para quem quer <strong>começar um servidor de SAMP</strong>.</span>
+                <br/>
+                <a href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084804da06901804f8d51470044">Adquirir</a>
+            </div>
+
+            <div class="card">
+                <h3>
+                    <span>Host SAMP - Plus</span>
+                    <img src="/assets/computer.png" alt="Image de Host SAMP" />
+                </h3>
+                <p>R$ 20,00</p>
+                <hr/><br/>
+                <span>Opção para um <strong>servidor em crescimento</strong>.</span>
+                <br/>
+                <a href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c9380848046fc8b01804f9555b60175">Adquirir</a>
+            </div>
+
+            <div class="card">
+                <h3>
+                    <span>Host SAMP - Premium</span>
+                    <img src="/assets/computer.png" alt="Image de Host SAMP" />
+                </h3>
+                <p>R$ 30,00</p>
+                <hr/><br/>
+                <span>Melhor opção para quem busca <strong>alto desempenho</strong>.</span>
+                <br/>
+                <a href="https://www.mercadopago.com.br/subscriptions/checkout?preapproval_plan_id=2c938084804da11301804f963f9a003c">Adquirir</a>
+            </div>
+        </div>
+        
+    </section>
+
+    <script>
+        const btn = document.getElementById('btn');
+        const nav = document.getElementById('nav');
+        btn.addEventListener('click', () => {
+            nav.classList.toggle('active');
+        })
+    </script>
+</body>
+
+</html>
