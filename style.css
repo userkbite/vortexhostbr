@@ -81,7 +81,7 @@ nav ul li a {
 .wave-bg-bot {
     background-position: bottom center;
     background-repeat: no-repeat;
-    background-image: url(/assets/wave.svg);
+    background-image: url(./assets/wave.svg);
     padding-bottom: 50px;
     background-size: 100% auto;
 }
